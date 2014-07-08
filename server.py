@@ -40,7 +40,7 @@ def main():
     LOG.debug("Configuration:")
     cfg.CONF.log_opt_values(LOG, std_logging.DEBUG)
 
-    server = Service('server-test', '10.0.2.15', [Handler()])
+    server = Service('server-test', 'localhost', [Handler()])
     server.serve()
 
 
