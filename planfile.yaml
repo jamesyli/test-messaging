@@ -1,0 +1,10 @@
+version: 1
+name: chef
+description: chef testy
+artifacts:
+- name: chef
+  artifact_type: heroku
+  content:
+    href: https://github.com/paulczar/solum-example-chef.git
+  language_pack: auto
+  unittest_cmd: ./unit_tests.sh
