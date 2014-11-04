@@ -1,5 +1,7 @@
 #!/bin/bash
 
-sleep 2
+echo "$gooduser"
+echo "$goodpassword"
+echo "$goodkey"
 
-exit 0
+#exit 0
