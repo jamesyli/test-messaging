@@ -12,11 +12,7 @@ else
   echo "no goodpassword"
 fi
 
-if [ $goodkey ]; then
-  echo "$goodkey"
-else
-  echo "no goodkey"
-fi
+echo "$goodkey"
 
 echo "+++end+++"
 
