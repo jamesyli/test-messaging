@@ -16,4 +16,4 @@ echo "$goodkey"
 
 echo "+++end+++"
 
-exit 1
+exit 0
