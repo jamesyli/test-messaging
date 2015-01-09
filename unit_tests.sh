@@ -1,18 +1,18 @@
 #!/bin/bash
 
-if [ $gooduser ]; then
-  echo "$gooduser"
+if [ $user ]; then
+  echo "$user"
 else
-  echo "no gooduser"
+  echo "no user"
 fi
 
-if [ $goodpassword ]; then
-  echo "$goodpassword"
+if [ $password ]; then
+  echo "$password"
 else
-  echo "no goodpassword"
+  echo "no password"
 fi
 
-echo "$goodkey"
+echo "$key"
 
 echo "+++end+++"
 
